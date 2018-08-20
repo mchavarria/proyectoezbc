@@ -119,7 +119,7 @@
     <parameter key="database_port">null</parameter>
     <parameter key="database_name">proyectoezbc</parameter>
     <parameter key="database_user">proyectoezbc</parameter>
-    <parameter key="database_password">proyectoezbc</parameter>
+    <parameter key="database_password">proyectoezbca</parameter>
     <parameter key="app_locales">en|fr|de|es|cs|nl|ru|uk|ro|pt_BR|pl|it|ja|id|ca|sl|hr|zh_CN</parameter>
     <parameter key="app.notifications.email_sender">ez.blockchain.utn@gmail.com</parameter>
     <parameter key="fragment.renderer.hinclude.global_template">null</parameter>
@@ -710,7 +710,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>eqTfjOkgHTXsl7Zxe3rueb</argument>
+      <argument>1-lsxSyoAodDH4w7kYMBJP</argument>
       <argument>/home/migue/Documents/dev/Proyecto/symfony-demo/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -720,7 +720,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>eqTfjOkgHTXsl7Zxe3rueb</argument>
+      <argument>1-lsxSyoAodDH4w7kYMBJP</argument>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
@@ -2087,14 +2087,6 @@
         <argument>2048</argument>
       </call>
       <call method="addListener">
-        <argument>console.command</argument>
-        <argument type="collection">
-          <argument type="service" id="debug.debug_handlers_listener"/>
-          <argument>configure</argument>
-        </argument>
-        <argument>2048</argument>
-      </call>
-      <call method="addListener">
         <argument>kernel.request</argument>
         <argument type="collection">
           <argument type="service" id="router_listener"/>
@@ -2992,12 +2984,12 @@
     </service>
     <service id="security.authentication.listener.anonymous.secured_area" class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
       <argument type="service" id="security.token_storage"/>
-      <argument>5b7b1030bc8a90.47813598</argument>
+      <argument>5b7b211a1b6ff3.69771784</argument>
       <argument type="service" id="monolog.logger.security" on-invalid="null"/>
       <argument type="service" id="security.authentication.manager"/>
     </service>
     <service id="security.authentication.provider.anonymous.secured_area" class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-      <argument>5b7b1030bc8a90.47813598</argument>
+      <argument>5b7b211a1b6ff3.69771784</argument>
     </service>
     <service id="security.exception_listener.secured_area" class="Symfony\Component\Security\Http\Firewall\ExceptionListener" public="false">
       <argument type="service" id="security.token_storage"/>
@@ -3528,7 +3520,7 @@
         <argument key="port">null</argument>
         <argument key="dbname">proyectoezbc</argument>
         <argument key="user">proyectoezbc</argument>
-        <argument key="password">proyectoezbc</argument>
+        <argument key="password">proyectoezbca</argument>
         <argument key="driverOptions" type="collection"/>
         <argument key="defaultTableOptions" type="collection"/>
       </argument>
@@ -4392,7 +4384,7 @@
     <service id="cache.system.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>eicdQfBWUD</argument>
       <argument>0</argument>
-      <argument>eqTfjOkgHTXsl7Zxe3rueb</argument>
+      <argument>1-lsxSyoAodDH4w7kYMBJP</argument>
       <argument>/home/migue/Documents/dev/Proyecto/symfony-demo/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -4400,7 +4392,7 @@
     <service id="cache.validator.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>uthTg1+s-q</argument>
       <argument>0</argument>
-      <argument>eqTfjOkgHTXsl7Zxe3rueb</argument>
+      <argument>1-lsxSyoAodDH4w7kYMBJP</argument>
       <argument>/home/migue/Documents/dev/Proyecto/symfony-demo/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -4408,7 +4400,7 @@
     <service id="cache.serializer.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>3XSKIha8AZ</argument>
       <argument>0</argument>
-      <argument>eqTfjOkgHTXsl7Zxe3rueb</argument>
+      <argument>1-lsxSyoAodDH4w7kYMBJP</argument>
       <argument>/home/migue/Documents/dev/Proyecto/symfony-demo/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -4416,7 +4408,7 @@
     <service id="cache.annotations.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
       <argument>yXPbTru6Bm</argument>
       <argument>0</argument>
-      <argument>eqTfjOkgHTXsl7Zxe3rueb</argument>
+      <argument>1-lsxSyoAodDH4w7kYMBJP</argument>
       <argument>/home/migue/Documents/dev/Proyecto/symfony-demo/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>

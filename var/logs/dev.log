@@ -478,3 +478,7 @@
 [2018-08-20 16:06:54] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
 [2018-08-20 16:06:54] request.INFO: Matched route "_wdt". {"route":"_wdt","route_parameters":{"_controller":"web_profiler.controller.profiler:toolbarAction","token":"c6efb9","_route":"_wdt"},"request_uri":"http://local.ezbc.com/app_dev.php/_wdt/c6efb9","method":"GET"} []
 [2018-08-20 16:06:54] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
+[2018-08-20 17:14:19] request.INFO: Matched route "homepage". {"route":"homepage","route_parameters":{"_controller":"Symfony\\Bundle\\FrameworkBundle\\Controller\\TemplateController::templateAction","template":"default/homepage.html.twig","_locale":"en","_route":"homepage"},"request_uri":"http://local.ezbc.com/app_dev.php/","method":"GET"} []
+[2018-08-20 17:14:19] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
+[2018-08-20 17:14:19] request.INFO: Matched route "_wdt". {"route":"_wdt","route_parameters":{"_controller":"web_profiler.controller.profiler:toolbarAction","token":"d4e812","_route":"_wdt"},"request_uri":"http://local.ezbc.com/app_dev.php/_wdt/d4e812","method":"GET"} []
+[2018-08-20 17:14:19] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
