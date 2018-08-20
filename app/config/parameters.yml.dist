@@ -5,6 +5,7 @@
 parameters:
     # The code of the default language used by the application ('en' = English)
     locale: en
+    database_driver: pdo_pgsql
 
     # The 'secret' value is a random string of characters used by Symfony to
     # to add more entropy to security related operations.
@@ -17,11 +18,11 @@ parameters:
     # this demo application uses an embedded SQLite database to simplify setup.
     # in a real Symfony application you probably will use a MySQL or PostgreSQL database
     # the path must be relative or else it will not work on Windows
-    database_host: 127.0.0.1
-    database_port: ~
-    database_name: easy_bc
-    database_user: root
-    database_password: ~
+    #database_host: 127.0.0.1
+    #database_port: ~
+    #database_name: easy_bc
+    #database_user: root
+    #database_password: ~
 
     # Uncomment this line to use a MySQL database instead of SQLite (and remove
     # the "doctrine" section from config_dev.yml regarding SQLite):
