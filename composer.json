@@ -1,8 +1,8 @@
 {
-    "name": "symfony/symfony-demo",
+    "name": "proyecto/easy-blockchain",
     "license": "MIT",
     "type": "project",
-    "description": "Symfony Demo Application",
+    "description": "Proyecto Ez-Bc Application",
     "autoload": {
         "psr-4": {
             "AppBundle\\": "src/AppBundle/",

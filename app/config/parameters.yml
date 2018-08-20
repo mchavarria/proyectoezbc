@@ -4,8 +4,9 @@ parameters:
     env(SYMFONY_SECRET): secret_value_for_symfony_demo_application
     env(LOG_URL): '%kernel.logs_dir%/%kernel.environment%.log'
     env(MAILER_URL): 'smtp://localhost:25?encryption=&auth_mode='
-    database_host: 127.0.0.1
-    database_port: ~
-    database_name: easy_bc
-    database_user: root
-    database_password: developer
+    database_driver:    pdo_pgsql
+    database_host:      localhost
+    database_port:      null
+    database_name:      proyectoezbc
+    database_user:      proyectoezbc
+    database_password:  proyectoezbc

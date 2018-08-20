@@ -15,7 +15,7 @@ imports:
 parameters:
     # This parameter defines the codes of the locales (languages) enabled in the application
     app_locales: en|fr|de|es|cs|nl|ru|uk|ro|pt_BR|pl|it|ja|id|ca|sl|hr|zh_CN
-    app.notifications.email_sender: anonymous@example.com
+    app.notifications.email_sender: ez.blockchain.utn@gmail.com
 
 # Basic configuration for the Symfony framework features
 framework:
@@ -55,7 +55,7 @@ framework:
         # this value is used as part of the "namespace" generated for the cache item keys
         # to avoid collisions when multiple apps share the same cache backend (e.g. a Redis server)
         # See https://symfony.com/doc/current/reference/configuration/framework.html#prefix-seed
-        prefix_seed: symfony-demo
+        prefix_seed: ezbc
 
 # Twig Configuration (used for rendering application templates)
 twig:
@@ -68,16 +68,12 @@ twig:
 # Doctrine Configuration (used to access databases and manipulate their information)
 doctrine:
     dbal:
-        driver: pdo_mysql
+        driver: '%database_driver%'
         host: '%database_host%'
         port: '%database_port%'
         dbname: '%database_name%'
         user: '%database_user%'
         password: '%database_password%'
-        charset: utf8mb4
-        default_table_options:
-            charset: utf8mb4
-            collate: utf8mb4_unicode_ci
     orm:
         auto_generate_proxy_classes: '%kernel.debug%'
         auto_mapping: true
