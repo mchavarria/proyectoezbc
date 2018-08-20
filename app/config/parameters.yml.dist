@@ -19,10 +19,10 @@ parameters:
     # the path must be relative or else it will not work on Windows
     database_driver:    pdo_pgsql
     database_host:      localhost
-    database_port:      null
-    database_name:      proyectoezbc
-    database_user:      proyectoezbc
-    database_password:  proyectoezbc
+    database_port:      5432
+    database_name:      d16en5mnt5ggbe
+    database_user:      rdgboyrkzimdao
+    database_password:  407f032764b33c9073257159d64e5f4facd50aa7562df8154651fa0ba2c93e86
 
     # Uncomment this line to use a MySQL database instead of SQLite (and remove
     # the "doctrine" section from config_dev.yml regarding SQLite):

@@ -26,3 +26,4 @@
 /web/build/fonts/glyphicons-*
 /web/build/images/glyphicons-*
 .idea/*
+.idea/workspace.xml
