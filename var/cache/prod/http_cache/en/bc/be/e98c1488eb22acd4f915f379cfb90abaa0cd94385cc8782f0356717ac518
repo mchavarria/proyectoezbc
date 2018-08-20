@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Symfony Demo application</title>
+        <link rel="alternate" type="application/rss+xml" title="Symfony Demo blog" href="/en/blog/rss.xml">
+                    <link rel="stylesheet" href="/build/css/app.css">
+        
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    </head>
+
+    <body id="blog_index">
+
+                    <header>
+                <div class="navbar navbar-default navbar-static-top" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header col-md-3 col-lg-2">
+                            <a class="navbar-brand" href="/">
+                                Symfony Demo
+                            </a>
+
+                            <button type="button" class="navbar-toggle"
+                                    data-toggle="collapse"
+                                    data-target=".navbar-collapse">
+                                <?php echo "<s"; ?>pan class="sr-only">Toggle navigation</span>
+                                <?php echo "<s"; ?>pan class="icon-bar"></span>
+                                <?php echo "<s"; ?>pan class="icon-bar"></span>
+                                <?php echo "<s"; ?>pan class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+
+                                                                    <li>
+                                        <a href="/en/blog/">
+                                            <i class="fa fa-home" aria-hidden="true"></i> Homepage
+                                        </a>
+                                    </li>
+
+                                                                    
+                                
+                                <li>
+                                    <a href="/en/blog/search"> <i class="fa fa-search"></i> Search</a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="locales">
+                                        <i class="fa fa-globe" aria-hidden="true"></i>
+                                        <?php echo "<s"; ?>pan class="caret"></span>
+                                        <?php echo "<s"; ?>pan class="sr-only">Choose language</span>
+                                    </a>
+                                    <ul class="dropdown-menu locales" role="menu" aria-labelledby="locales">
+                                                                                    <li aria-checked="true" class="active" role="menuitem"><a href="/en/blog/">English</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/fr/blog/">Français</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/de/blog/">Deutsch</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/es/blog/">Español</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/cs/blog/">Čeština</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/nl/blog/">Nederlands</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/ru/blog/">Русский</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/uk/blog/">Українська</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/ro/blog/">Română</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/pt_BR/blog/">Português (brasil)</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/pl/blog/">Polski</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/it/blog/">Italiano</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/ja/blog/">日本語</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/id/blog/">Indonesia</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/ca/blog/">Català</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/sl/blog/">Slovenščina</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/hr/blog/">Hrvatski</a></li>
+                                                                                    <li aria-checked="false" role="menuitem"><a href="/zh_CN/blog/">中文 (中国)</a></li>
+                                                                            </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        
+        <div class="container body-container">
+                            <div class="row">
+                    <div id="main" class="col-sm-9">
+                        
+<div class="messages">
+    </div>
+
+
+                                    <article class="post">
+            <h2>
+                <a href="/en/blog/posts/lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit
+                </a>
+            </h2>
+
+            <p class="post-metadata">
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-calendar"></i> February 17, 2017 at 10:58:47 PM</span>
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-user"></i> Jane Doe</span>
+            </p>
+
+            <p>Urna nisl sollicitudin id varius orci quam id turpis. Pellentesque vitae velit ex. Ubi est barbatus nix. Lorem ipsum dolor sit amet consectetur adipiscing elit. Pellentesque et sapien pulvinar consectetur. Mauris dapibus risus quis suscipit vulputate.</p>
+
+                <p class="post-tags">
+                    <?php echo "<s"; ?>pan class="label label-default">
+                <i class="fa fa-tag"></i> adipiscing
+            </span>
+                    <?php echo "<s"; ?>pan class="label label-default">
+                <i class="fa fa-tag"></i> incididunt
+            </span>
+            </p>
+
+
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/silva-de-secundus-galatae-demitto-quadra">
+                    Silva de secundus galatae demitto quadra
+                </a>
+            </h2>
+
+            <p class="post-metadata">
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-calendar"></i> February 16, 2017 at 10:58:47 PM</span>
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-user"></i> Bob Bad</span>
+            </p>
+
+            <p>Ut suscipit posuere justo at vulputate. Curabitur aliquam euismod dolor non ornare. Bassus fatalis classiss virtualiter transferre de flavum. Sunt torquises imitari velox mirabilis medicinaes. Urna nisl sollicitudin id varius orci quam id turpis.</p>
+
+                <p class="post-tags">
+                    <?php echo "<s"; ?>pan class="label label-default">
+                <i class="fa fa-tag"></i> adipiscing
+            </span>
+                    <?php echo "<s"; ?>pan class="label label-default">
+                <i class="fa fa-tag"></i> lorem
+            </span>
+            </p>
+
+
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/nunc-viverra-elit-ac-laoreet-suscipit">
+                    Nunc viverra elit ac laoreet suscipit
+                </a>
+            </h2>
+
+            <p class="post-metadata">
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-calendar"></i> February 15, 2017 at 10:58:47 PM</span>
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-user"></i> Bob Bad</span>
+            </p>
+
+            <p>Morbi tempus commodo mattis. Pellentesque vitae velit ex. Eposs sunt solems de superbus fortis. Silva de secundus galatae demitto quadra. Sunt accentores vitare salvus flavum parses. Ut eleifend mauris et risus ultrices egestas.</p>
+
+            
+
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/era-brevis-ratione-est">
+                    Era brevis ratione est
+                </a>
+            </h2>
+
+            <p class="post-metadata">
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-calendar"></i> February 14, 2017 at 10:58:47 PM</span>
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-user"></i> Jane Doe</span>
+            </p>
+
+            <p>Potus sensim ad ferox abnoba. Pellentesque vitae velit ex. Aliquam sodales odio id eleifend tristique. Ubi est audax amicitia. Silva de secundus galatae demitto quadra. Ut suscipit posuere justo at vulputate. Sunt accentores vitare salvus flavum parses.</p>
+
+                <p class="post-tags">
+                    <?php echo "<s"; ?>pan class="label label-default">
+                <i class="fa fa-tag"></i> dolore
+            </span>
+            </p>
+
+
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/abnobas-sunt-hilotaes-de-placidus-vita">
+                    Abnobas sunt hilotaes de placidus vita
+                </a>
+            </h2>
+
+            <p class="post-metadata">
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-calendar"></i> February 13, 2017 at 10:58:47 PM</span>
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-user"></i> Bob Bad</span>
+            </p>
+
+            <p>Ut suscipit posuere justo at vulputate. Vae humani generis. Era brevis ratione est. Sunt torquises imitari velox mirabilis medicinaes. Mineralis persuadere omnes finises desiderium.</p>
+
+                <p class="post-tags">
+                    <?php echo "<s"; ?>pan class="label label-default">
+                <i class="fa fa-tag"></i> adipiscing
+            </span>
+                    <?php echo "<s"; ?>pan class="label label-default">
+                <i class="fa fa-tag"></i> ipsum
+            </span>
+                    <?php echo "<s"; ?>pan class="label label-default">
+                <i class="fa fa-tag"></i> voluptate
+            </span>
+            </p>
+
+
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/mineralis-persuadere-omnes-finises-desiderium">
+                    Mineralis persuadere omnes finises desiderium
+                </a>
+            </h2>
+
+            <p class="post-metadata">
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-calendar"></i> February 12, 2017 at 10:58:47 PM</span>
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-user"></i> Bob Bad</span>
+            </p>
+
+            <p>Potus sensim ad ferox abnoba. Bassus fatalis classiss virtualiter transferre de flavum. Ut eleifend mauris et risus ultrices egestas. Mauris dapibus risus quis suscipit vulputate. Mineralis persuadere omnes finises desiderium.</p>
+
+                <p class="post-tags">
+                    <?php echo "<s"; ?>pan class="label label-default">
+                <i class="fa fa-tag"></i> incididunt
+            </span>
+                    <?php echo "<s"; ?>pan class="label label-default">
+                <i class="fa fa-tag"></i> lorem
+            </span>
+                    <?php echo "<s"; ?>pan class="label label-default">
+                <i class="fa fa-tag"></i> voluptate
+            </span>
+            </p>
+
+
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/teres-talis-saepe-tractare-de-camerarius-flavum-sensorem">
+                    Teres talis saepe tractare de camerarius flavum sensorem
+                </a>
+            </h2>
+
+            <p class="post-metadata">
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-calendar"></i> February 11, 2017 at 10:58:47 PM</span>
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-user"></i> Bob Bad</span>
+            </p>
+
+            <p>Sunt seculaes transferre talis camerarius fluctuies. Nulla porta lobortis ligula vel egestas. Mauris dapibus risus quis suscipit vulputate. Mineralis persuadere omnes finises desiderium. Sunt torquises imitari velox mirabilis medicinaes.</p>
+
+            
+
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/pellentesque-vitae-velit-ex">
+                    Pellentesque vitae velit ex
+                </a>
+            </h2>
+
+            <p class="post-metadata">
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-calendar"></i> February 10, 2017 at 10:58:47 PM</span>
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-user"></i> Tom Good</span>
+            </p>
+
+            <p>Ut suscipit posuere justo at vulputate. Nunc viverra elit ac laoreet suscipit. Potus sensim ad ferox abnoba. Pellentesque et sapien pulvinar consectetur. Abnobas sunt hilotaes de placidus vita.</p>
+
+                <p class="post-tags">
+                    <?php echo "<s"; ?>pan class="label label-default">
+                <i class="fa fa-tag"></i> dolore
+            </span>
+                    <?php echo "<s"; ?>pan class="label label-default">
+                <i class="fa fa-tag"></i> incididunt
+            </span>
+            </p>
+
+
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/eposs-sunt-solems-de-superbus-fortis">
+                    Eposs sunt solems de superbus fortis
+                </a>
+            </h2>
+
+            <p class="post-metadata">
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-calendar"></i> February 9, 2017 at 10:58:47 PM</span>
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-user"></i> Tom Good</span>
+            </p>
+
+            <p>Ubi est audax amicitia. Sunt seculaes transferre talis camerarius fluctuies. Sunt accentores vitare salvus flavum parses. Ut suscipit posuere justo at vulputate. Mineralis persuadere omnes finises desiderium.</p>
+
+                <p class="post-tags">
+                    <?php echo "<s"; ?>pan class="label label-default">
+                <i class="fa fa-tag"></i> ipsum
+            </span>
+            </p>
+
+
+        </article>
+            <article class="post">
+            <h2>
+                <a href="/en/blog/posts/aliquam-sodales-odio-id-eleifend-tristique">
+                    Aliquam sodales odio id eleifend tristique
+                </a>
+            </h2>
+
+            <p class="post-metadata">
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-calendar"></i> February 8, 2017 at 10:58:47 PM</span>
+                <?php echo "<s"; ?>pan class="metadata"><i class="fa fa-user"></i> Bob Bad</span>
+            </p>
+
+            <p>Sunt seculaes transferre talis camerarius fluctuies. Urna nisl sollicitudin id varius orci quam id turpis. Morbi tempus commodo mattis. Teres talis saepe tractare de camerarius flavum sensorem. Curabitur aliquam euismod dolor non ornare.</p>
+
+                <p class="post-tags">
+                    <?php echo "<s"; ?>pan class="label label-default">
+                <i class="fa fa-tag"></i> voluptate
+            </span>
+            </p>
+
+
+        </article>
+    
+            <div class="navigation text-center">
+            <ul class="pagination"><li class="prev disabled"><?php echo "<s"; ?>pan>&larr; Previous</span></li><li class="active"><?php echo "<s"; ?>pan>1 <?php echo "<s"; ?>pan class="sr-only">(current)</span></span></li><li><a href="/en/blog/page/2">2</a></li><li><a href="/en/blog/page/3">3</a></li><li class="next"><a href="/en/blog/page/2" rel="next">Next &rarr;</a></li></ul>
+        </div>
+                        </div>
+
+                    <div id="sidebar" class="col-sm-3">
+                                                        <?php echo $this->surrogate->handle($this, '/_fragment?_path=template%3Dblog%252Fabout.html.twig%26sharedAge%3D600%26_locale%3Den%26_format%3Dhtml%26_controller%3DFrameworkBundle%253ATemplate%253Atemplate&_hash=Gr4btBMxv917jkfhhqfhc9mR6EG%2FyvdH%2BAHer%2BYtgTU%3D', '', true) ?>
+
+                        
+
+    <div class="section source-code">
+    <p>
+        Click on this button to show the source code of the <?php echo "<s"; ?>trong>Controller</strong> and <?php echo "<s"; ?>trong>template</strong> used to render this page.
+    </p>
+
+    <button type="button" class="btn btn-default btn-lg btn-block" data-toggle="modal" data-target="#sourceCodeModal">
+      <i class="fa fa-cogs" aria-hidden="true"></i> Show code
+    </button>
+
+    <div class="modal fade" id="sourceCodeModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <?php echo "<s"; ?>pan aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title"><i class="fa fa-code" aria-hidden="true"></i> Source code used to render this page</h4>
+                </div>
+
+                <div class="modal-body">
+                                            <h3>Controller code<?php echo "<s"; ?>mall class="pull-right"><abbr title="/home/migue/Documents/dev/Proyecto/symfony-demo/src">src</abbr>/AppBundle/Controller/BlogController.php at line 51</small></h3>
+                        <pre><code class="php">/**
+ * @Route(&quot;/&quot;, defaults={&quot;page&quot;: &quot;1&quot;, &quot;_format&quot;=&quot;html&quot;}, name=&quot;blog_index&quot;)
+ * @Route(&quot;/rss.xml&quot;, defaults={&quot;page&quot;: &quot;1&quot;, &quot;_format&quot;=&quot;xml&quot;}, name=&quot;blog_rss&quot;)
+ * @Route(&quot;/page/{page}&quot;, defaults={&quot;_format&quot;=&quot;html&quot;}, requirements={&quot;page&quot;: &quot;[1-9]\d*&quot;}, name=&quot;blog_index_paginated&quot;)
+ * @Method(&quot;GET&quot;)
+ * @Cache(smaxage=&quot;10&quot;)
+ *
+ * NOTE: For standard formats, Symfony will also automatically choose the best
+ * Content-Type header for the response.
+ * See https://symfony.com/doc/current/quick_tour/the_controller.html#using-formats
+ */
+public function indexAction($page, $_format)
+{
+    $em = $this-&gt;getDoctrine()-&gt;getManager();
+    $posts = $em-&gt;getRepository(Post::class)-&gt;findLatest($page);
+
+    // Every template name also has two extensions that specify the format and
+    // engine for that template.
+    // See https://symfony.com/doc/current/templating.html#template-suffix
+    return $this-&gt;render(&#039;blog/index.&#039;.$_format.&#039;.twig&#039;, [&#039;posts&#039; =&gt; $posts]);
+}
+</code></pre>
+                    
+                    <h3>Twig template code<?php echo "<s"; ?>mall class="pull-right"><abbr title="/home/migue/Documents/dev/Proyecto/symfony-demo/app">app</abbr>/Resources/views/blog/index.html.twig at line 1</small></h3>
+                    <pre><code class="twig"></code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="section rss">
+    <a href="/en/blog/rss.xml">
+        <i class="fa fa-rss" aria-hidden="true"></i> Blog Posts RSS
+    </a>
+</div>
+
+                    </div>
+                </div>
+                    </div>
+
+                    <footer>
+                <div class="container">
+                    <div class="row">
+                        <div id="footer-copyright" class="col-md-6">
+                            <p>&copy; 2018 - The Symfony Project</p>
+                            <p>MIT License</p>
+                        </div>
+                        <div id="footer-resources" class="col-md-6">
+                            <p>
+                                <a href="https://twitter.com/symfony" title="Symfony Twitter">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://www.facebook.com/SensioLabs" title="SensioLabs Facebook">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://symfony.com/blog/" title="Symfony Blog">
+                                    <i class="fa fa-rss" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        
+                    <?php echo "<s"; ?>cript src="/build/manifest.js"></script>
+            <?php echo "<s"; ?>cript src="/build/js/common.js"></script>
+            <?php echo "<s"; ?>cript src="/build/js/app.js"></script>
+        
+                <!-- Page rendered on August 17, 2018 at 1:49:23 AM GMT -->
+    </body>
+</html>
