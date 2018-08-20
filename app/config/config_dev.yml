@@ -11,6 +11,15 @@ web_profiler:
     toolbar: '%kernel.debug%'
     intercept_redirects: false
 
+doctrine:
+    dbal:
+        driver: '%database_driver%'
+        host: '%database_host%'
+        port: '%database_port%'
+        dbname: '%database_name%'
+        user: '%database_user%'
+        password: '%database_password%'
+        
 monolog:
     handlers:
         main:

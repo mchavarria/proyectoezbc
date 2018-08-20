@@ -67,13 +67,6 @@ twig:
 
 # Doctrine Configuration (used to access databases and manipulate their information)
 doctrine:
-    dbal:
-        driver: '%database_driver%'
-        host: '%database_host%'
-        port: '%database_port%'
-        dbname: '%database_name%'
-        user: '%database_user%'
-        password: '%database_password%'
     orm:
         auto_generate_proxy_classes: '%kernel.debug%'
         auto_mapping: true
